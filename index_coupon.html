@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>兌換碼功能 — 規格書</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, 'Noto Sans TC', sans-serif;
+      background: #f8fafc; min-height: 100vh;
+      display: flex; align-items: center; justify-content: center; padding: 2rem;
+    }
+    .card {
+      background: #fff; border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      padding: 3rem 2.5rem; width: 100%; max-width: 480px; text-align: center;
+    }
+    .label { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em; color: #64b5f6; text-transform: uppercase; margin-bottom: 0.6rem; }
+    h1 { font-size: 1.8rem; font-weight: 700; color: #1a202c; margin-bottom: 0.4rem; }
+    .desc { font-size: 0.9rem; color: #718096; margin-bottom: 2.4rem; line-height: 1.6; }
+    .btn-group { display: flex; flex-direction: column; gap: 1rem; }
+    .btn { display: block; padding: 1rem 1.5rem; border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 1rem; transition: all 0.2s; }
+    .btn-primary { background: #1a56db; color: #fff; }
+    .btn-primary:hover { background: #1e429f; }
+    .btn-secondary { background: #f0f4ff; color: #1a56db; border: 1px solid #c3dafe; }
+    .btn-secondary:hover { background: #e0eaff; }
+    .btn-tertiary { background: #f0fdf4; color: #16a34a; border: 1px solid #dcfce7; }
+    .btn-tertiary:hover { background: #dcfce7; }
+    .btn span { display: block; font-size: 0.78rem; font-weight: 400; opacity: 0.75; margin-top: 0.2rem; }
+    .footer { margin-top: 2rem; font-size: 0.75rem; color: #a0aec0; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <p class="label">WOW Gaming · 功能規格書</p>
+    <h1>兌換碼功能</h1>
+    <p class="desc">請選擇要查看的版本</p>
+    <div class="btn-group">
+      <a class="btn btn-primary" href="./%E5%85%8C%E6%8F%9B%E7%A2%BC/%E5%85%8C%E6%8F%9B%E7%A2%BC%20%E6%9C%83%E5%93%A1%E7%AB%AF.html">
+        會員端
+        <span>前台會員端規格書</span>
+      </a>
+      <a class="btn btn-secondary" href="./%E5%85%8C%E6%8F%9B%E7%A2%BC/%E5%85%8C%E6%8F%9B%E7%A2%BC%20%E5%BE%8C%E5%8F%B0.html">
+        代理端
+        <span>後台管理端規格書</span>
+      </a>
+      <a class="btn btn-tertiary" href="./%E5%85%8C%E6%8F%9B%E7%A2%BC/%E6%9C%83%E5%93%A1%E7%AB%AF_%E5%85%8C%E6%8F%9B%E7%A2%BC%E5%8A%9F%E8%83%BD_Demo%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6.pdf" target="_blank">
+        Demo 說明
+        <span>會員端兌換碼功能說明文件 PDF</span>
+      </a>
+    </div>
+    <p class="footer">Kate Lai · PM / 產品企劃</p>
+  </div>
+</body>
+</html>
